@@ -1,0 +1,113 @@
+body {
+    padding-top: 56px;
+}
+
+/* Loading */
+#loading {
+    backdrop-filter: blur(2px);
+}
+
+/* Tabelas */
+.table-responsive {
+    margin-bottom: 20px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+/* Toast de erro */
+.toast {
+    min-width: 250px;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Formulários */
+.form-label.required::after {
+    content: " *";
+    color: red;
+}
+
+/* Botões com ícones */
+.btn i {
+    margin-right: 5px;
+}
+
+/* Estilo para tabelas de exportação */
+.table-export {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-export th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.table-export td {
+    padding: 8px;
+    border: 1px solid #dee2e6;
+}
+
+/* Dropdown de exportação */
+.btn-group .dropdown-menu {
+    min-width: 120px;
+}
+
+/* Indicador de modo convidado */
+.convidado-badge {
+    font-size: 0.7em;
+    vertical-align: middle;
+}
+
+/* Desabilitar interação em modo convidado */
+.modo-convidado .btn-primary,
+.modo-convidado .btn-success,
+.modo-convidado .btn-info,
+.modo-convidado .btn-danger {
+    display: none;
+}
+
+.modo-convidado [onclick*="edit"],
+.modo-convidado [onclick*="delete"],
+.modo-convidado [onclick*="add"] {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Botão para convidados - Destaque */
+.btn-doacao-convidado {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+}
+
+/* Botão para admin - Discreto */
+.btn-doacao-admin {
+    border: 2px solid #007bff;
+    background: transparent;
+}
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Espaçamento entre botões */
+.btn-group-sm > .btn, .btn-sm {
+    margin-right: 0.25rem;
+}
+
+.btn-group-sm > .btn:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,3 @@
+Consegui fazer validação da API usando a tecnologia POSTMAN, para verificar se as rotas estavam funcionando corretamente
+
+Crie as rotas que completam o CRUD(create, read, update, delete)
