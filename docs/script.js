@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://piesc-new.onrender.com';
 
 // ========== CONFIGURAÇÃO GLOBAL DO AJAX ==========
 $.ajaxSetup({
