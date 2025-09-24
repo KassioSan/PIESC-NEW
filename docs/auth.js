@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://piesc-new.onrender.com';
 
 $(document).ready(function() {
     // Verifica se já está logado
